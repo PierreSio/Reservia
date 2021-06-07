@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css">
-        <script src="https://kit.fontawesome.com/6f339f6f72.js" crossorigin="anonymous"></script>
-        <title>RESERVIA</title>
-    </head>
-    <body>
-        <header>
-            <!--Logo et barre de navigation -->      
-            <nav>
-                <div id="logo_reservia">
-                    <img src="images/logo/Reservia@3x.png" alt="Logo Reservia"></div>
-                <div class="bouton_nav" id="hebergements">
-                    <a class="lien_nav" href="#">Hébergements</a></div>
-                <div class="bouton_nav" id="activite"> 
-                    <a class="lien_nav" href="#2">Activités</a></div>
-                <div class="bouton_nav" id="inscription">
-                    <a class="lien_nav" href="#3">S'inscrire</a></div>
-            </nav>
-        </header>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>RESERVIA</title>
+</head>
+<body>
+    <header>
+        <!--Logo et barre de navigation -->      
+        <nav>
+            <div id="logo_reservia">
+                <img src="images/logo/Reservia@3x.png" alt="Logo Reservia"></div>
+            <div class="bouton_nav" id="hebergements">
+                <a class="lien_nav" href="#">Hébergements</a></div>
+            <div class="bouton_nav" id="activite"> 
+                <a class="lien_nav" href="#">Activités</a></div>
+            <div class="bouton_nav" id="inscription">
+                <a class="lien_nav" href="#">S'inscrire</a></div>
+        </nav>
+    </header>
+    <br><br><br>
+    <!--Section de recherche hébergement-->
+    <section id="recherche">
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <div class="bouton_recherche">
+            <i class="fas fa-map-marker-alt ici"></i>
+            <input type="search" id="Rechercher" name="Rechercher" placeholder="Marseille, France">
+            <input type="button" id="button_recherche" value="Rechercher">
+        </div>
+</body>
 </html>
