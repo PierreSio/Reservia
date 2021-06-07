@@ -1,1 +1,110 @@
+body{
+    font-family: "raleway light";
+    margin: 0;
+    max-width: 1440px;
+}
+
+/*partie header*/
+header img{
+    width: 100px;
+    align-self: center;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 100px;
+    margin: auto;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+nav li{
+    width: 160px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo_reservia{
+    display: flex;
+    justify-self: flex-start;
+}
+
+.lien_nav{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+}
+
+.bouton_nav{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bouton_nav:hover{ 
+    color : #0065FC;
+    border-top: 5px solid blue;
+}
+
+#inscription {
+    color: blue;
+    font-weight: bold;
+}
+
+/*bouton recherche*/
+
+#recherche{
+    width: 95%;
+    margin: auto;
+}
+
+div.bouton_recherche{
+    display: inline-flex;
+    margin-top: 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+}
+
+.ici{
+    background-color: #f2f2f2;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px 0px 0px 15px;
+}
+
+input#Rechercher{
+    font-size: 18px;
+    padding: 13px;
+    font-weight: bold;
+    border: none;
+}
+::placeholder{
+    color: black;
+}
+
+#button_recherche{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
 
