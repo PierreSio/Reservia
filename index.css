@@ -1,5 +1,5 @@
 body{
-    font-family: "raleway light";
+    font-family: 'Raleway';
     margin: 0;
     max-width: 1440px;
 }
@@ -92,6 +92,7 @@ input#Rechercher{
     padding: 13px;
     font-weight: bold;
     border: none;
+    outline: none;
 }
 ::placeholder{
     color: black;
@@ -316,4 +317,225 @@ img.imgpopulaire{
 
 #afficherplus{
     margin-top: 20px;
+}
+
+/*partie activités*/
+h2#titre_activite{
+    margin: 60px 0 0 50px;
+}
+
+#bloc_activites{
+    width: 1340px;
+    height: 480px;
+    display: flex;
+}
+
+#vignette1{
+    display: flex;
+    width: 300px;
+    height: 450px;
+    margin: 30px 20px 20px 50px;
+}
+
+#photo1{
+    width: 300px;
+    height: 390px;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+}
+
+#intitule1{
+    width: auto;
+    height: 60px;
+    margin-top: 390px;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+}
+
+#vignette2{
+    display: flex;
+    height: 240px;
+    width: 300px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 30px 20px 0 20px;
+}
+
+#photo2{
+    width: 300px;
+    height: 180px;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+}
+
+#intitule2{
+    width: auto;
+    height: 60px;
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+}
+
+#vignette3{
+    display: flex;
+    height: 160px;
+    width: 300px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 50px 20px 0px 20px;
+}
+
+#photo3{
+    width: 300px;
+    height: 100px;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+}
+
+#intitule3{
+    width: auto;
+    height: 60px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+}
+
+#vignette4{
+    display: flex;
+    height: 450px;
+    width: 300px;
+    margin: 30px 20px 0 20px;
+}
+
+#photo4{
+    width: 300px;
+    height: 390px;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+}
+
+#intitule4{
+    width: auto;
+    height: 60px;
+    margin-top: 390px;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+}
+
+#vignette5{
+    display: flex;
+    height: 190px;
+    width: 300px;
+    margin: 30px 0 0 20px;
+}
+
+#photo5{
+    width: 300px;
+    height: 130px;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+}
+
+#intitule5{
+    width: auto;
+    height: 60px;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+}
+
+#vignette6{
+    display: flex;
+    height: 210px;
+    width: 300px;
+    margin: 50px 0 0 20px;
+}
+
+#photo6{
+    width: 300px;
+    height: 150px;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+}
+
+#intitule6{
+    width: auto;
+    height: 60px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+}
+
+figure{
+    box-shadow: 1px 1px 12px #797b80;
+    margin: 0;
+    border-radius: 25px;
+}
+
+figcaption{
+    height: 60px;
+    width: auto;
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+}
+
+figure:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    background-color: #f2f2f2;
+    width: 1440px;
+    height: 220px;
+    margin-top: 60px;
+}
+
+.bloc_footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 450px;
+    padding-top: 15px;
+}
+
+.texte_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 30px;
+}
+
+a.lien_footer:hover{
+    color: #0065FC;
+    text-decoration: underline;
 }
