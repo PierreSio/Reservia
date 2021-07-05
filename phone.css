@@ -1,0 +1,143 @@
+@media screen and (max-width: 376px)
+/*responsive mobile*/
+
+    {
+    body {
+        margin: 30px 0 30px 0;
+    }
+    nav {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        max-width: 375px;
+        height: 130px;
+    }
+    #inscription {
+        grid-area: -3/-2/-2/-2;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+    #logo_reservia {
+        grid-area: -3/-2/-2/-3;
+        margin-left: 20px;
+    }
+    #hebergements, #activite:hover {
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+    #inscription:hover {
+        border-top: none;
+    }
+    #recherche {
+        margin-left: 20px;
+    }
+    h1 {
+        margin-top: 60px;
+    }
+    #rechercher {
+        display: none;
+    }
+    #button_recherche {
+        display: none;
+    }
+    #loupe {
+        display: flex;
+        color: white;
+        background-color: #0065FC;
+        align-items: center;
+        width: 50px;
+        justify-content: center;
+        border-radius: 15px;
+        border: none;
+    }
+    #box_filtres {
+        max-width: 375px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .logos {
+        margin: 0 0 15px 0;
+        width: auto;
+        padding-right: 10px;
+        margin-right: 10px;
+        height: 45px;
+    }
+    #filtres {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .logofiltre {
+        height: 1.1em;
+    }
+    .logos .fas {
+        font-size: 1.1em;
+        padding: 13px;
+        width: 20px;
+    }
+    .info {
+        margin: 0;
+    }
+    #Hebergements {
+        margin: 0;
+    }
+    #marseille {
+        width: 330px;
+        background-color: white;
+        padding: 0;
+        margin: 20px;
+        order: 2;
+    }
+    .bloc_hebergement {
+      flex-direction: column;
+    }
+    .box_hebergement {
+        width: 330px;
+        box-shadow: 1px 1px 5px #d0d2d6;
+    }
+    img.imghebergement {
+        width: 330px;
+    }
+    #afficherplus {
+        margin: 0;
+    }
+    #populaire {
+        padding: 20px;
+        width: 375px;
+        height: 570px;
+        border-radius: 0;
+        order: 1;
+    }
+    .bloc_populaire {
+        width: 375px;
+    }
+    .box_populaire {
+        width: 330px;
+    }
+    h2#titre_activite {
+        margin: 30px 0 0 20px;
+    }
+    #bloc_activites {
+        width: 375px;
+        flex-direction: column;
+        height: 1300px;
+    }
+    #vignette1, #vignette2, #vignette3, #vignette4, #vignette5, #vignette6 {
+        width: 330px;
+        height: 190px;
+        margin: 20px 0 0 20px;
+    }
+    #bloc_activites img {
+        width: 330px;
+        height: 135px;
+    }
+    #intitule1, #intitule2, #intitule3, #intitule4, #intitule5, #intitule6 {
+        margin-top: 135px;
+        height: 55px;
+    }
+    footer {
+        margin-top: 0;
+        width: 375px;
+        height: 485px;
+        flex-direction: column;
+    }
+}
