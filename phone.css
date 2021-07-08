@@ -17,7 +17,7 @@
         margin-right: 20px;
     }
     #logo_reservia {
-        grid-area: -3/-2/-2/-3;
+        grid-area: 1;
         margin-left: 20px;
     }
     #hebergements, #activite:hover {
