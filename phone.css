@@ -2,9 +2,6 @@
 /*responsive mobile*/
 
     {
-    body {
-        margin: 30px 0 30px 0;
-    }
     nav {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
