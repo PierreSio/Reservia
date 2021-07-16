@@ -1,20 +1,20 @@
-@media screen and (max-width: 376px)
+@media screen and (max-width: 500px)
 /*responsive mobile*/
 
     {
     nav {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        max-width: 375px;
+        /* max-width: 100%; */
         height: 130px;
     }
     #inscription {
-        grid-area: 1;
+        grid-area: -3/-2/-2/-2;
         justify-content: flex-end;
         margin-right: 20px;
     }
     #logo_reservia {
-        grid-area: 1;
+        grid-area: -3/-2/-2/-3;
         margin-left: 20px;
     }
     #hebergements, #activite:hover {
@@ -26,6 +26,7 @@
     }
     #recherche {
         margin-left: 20px;
+        width: 90%;
     }
     h1 {
         margin-top: 60px;
@@ -79,7 +80,8 @@
         order: 2;
     }
     .bloc_hebergement {
-      flex-direction: column;
+        flex-direction: column;
+        width: 100%;
     }
     .box_hebergement {
         width: 330px;
@@ -90,10 +92,11 @@
     }
     #populaire {
         padding: 20px;
-        width: 375px;
+        width: 100%;
         height: 570px;
         border-radius: 0;
         order: 1;
+        flex-wrap: wrap;
     }
     .bloc_populaire {
         width: 375px;
@@ -124,7 +127,7 @@
     }
     footer {
         margin-top: 0;
-        width: 375px;
+        max-width: 100%;
         height: 485px;
         flex-direction: column;
     }
