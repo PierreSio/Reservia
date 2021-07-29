@@ -1,0 +1,22 @@
+    @media screen and (min-width:501px) and (max-width:1430px) {
+        body {
+            width: 1430px;
+        }
+        #marseille {
+            width: 100%;
+            order: 2;
+        }
+        .bloc_hebergement {
+            align-items: center;
+            width: 65%;
+        }
+        #populaire {
+            width: 100%;
+            margin: 0 0 50px 0;
+        }
+        .bloc_populaire {
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 100%;
+        }
+    }
